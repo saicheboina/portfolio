@@ -1,0 +1,121 @@
+SAI CHEBOINA
+                                                            Senior Software Engineer  
+Email ID: cheboinasai20@gmail.com
+Contact: +1 (614) 602-1285 
+GitHub: https://github.com/saicheboina
+                                                                               
+Professional Summary: 
+•	Senior Software Engineer with 9+ years of hands-on DevOps experience, architecting cloud-native solutions across AWS, Azure, and Google Cloud Platform (GCP).
+•	Proven expertise in provisioning scalable and secure Kubernetes environments using Amazon EKS, Azure AKS, and GKE, supporting fraud detection, banking, logistics, and insurance platforms.
+•	Developed and managed infrastructure as code (IaC) using Terraform, CloudFormation, ARM Templates, AWS CDK, and GCP Deployment Manager, standardizing infrastructure provisioning across environments.
+•	Built and optimized CI/CD pipelines using tools like GitHub Actions, Azure DevOps, Jenkins, AWS Code Pipeline, and GitLab CI, automating build, test, scan, and deployment workflows across microservice applications.
+•	Deployed microservices using Docker, Helm, and container orchestration tools including EKS, AKS, ECS Far gate, and GKE, ensuring high availability and workload portability.
+•	Implemented GitOps workflows using GitHub Actions with Helm for consistent and automated EKS application deployments, including support for blue-green and canary strategies.
+•	Established end-to-end observability with Prometheus, Grafana, CloudWatch, Azure Monitor, ELK Stack, and GCP Operations Suite, enabling proactive performance tuning and root cause analysis.
+•	Integrated DevSecOps practices with tools like SonarQube, Snyk, Checkov, Security Command Center, AWS Guard Duty, and Defender for Cloud, embedding security and compliance into CI/CD and IaC pipelines.
+•	Automated configuration management using Ansible, Chef, Puppet, and AWS SSM, enforcing secure OS baselines and consistent runtime environments across EC2, AKS, and GKE nodes.
+•	Managed cloud-native secrets and identity integration using AWS IAM, Azure Key Vault, GCP KMS, SSM Parameter Store, and Workload Identity Federation, eliminating hardcoded credentials.
+•	Designed secure and scalable network topologies including VPCs, NAT Gateways, Application Gateways, and Private Endpoints to support regulated and mission-critical workloads.
+•	Enabled dynamic scaling for container workloads with Horizontal Pod Autoscaler (HPA), Cluster Autoscaler, Pod Disruption Budgets, and node pool management across EKS, AKS, and GKE.
+•	Applied infrastructure compliance frameworks like PCI-DSS, SOX, and internal audit controls through policy-as-code, logging, access boundaries, and automated compliance reporting.
+•	Collaborated cross-functionally with SREs, GRC, platform, and application teams to drive secure cloud transformations, accelerate release velocity, and improve system reliability.
+Technical Skills:
+
+Cloud Platforms			AWS, Azure, GCP 
+Infrastructure as Code	Terraform, AWS CloudFormation, Azure ARM Templates, AWS CDK, GCP Deployment Manager
+CI/CD		GitHub Actions, Azure DevOps Pipelines, Jenkins, GitLab CI/CD, AWS Code Pipeline, Cloud Build
+Containers & Orchestration		Docker, Kubernetes (EKS, AKS, GKE, k3s, kind), ECS Fargate, Helm
+Monitoring / Logging	Prometheus, Grafana, Fluent Bit, CloudWatch, Azure Monitor, App Insights, ELK Stack, GCP Operations Suite (Stackdriver)
+Security / DevSecOps	IAM, AWS GuardDuty, AWS Config Rules, Azure Defender for Cloud, GCP Security Command Center, KMS, SSM, Checkov, Snyk, SonarQube, Workload Identity Federation
+Config Management			Ansible, Chef, Puppet, AWS SSM
+Languages / OS				Bash, Shell, YAML, JSON, Amazon Linux 2, Ubuntu, RHEL
+Version Control & Repos		Git, GitHub, GitLab, Azure Repos
+
+Professional Experience:
+
+Client: Wells Fargo - Charlotte, NC	 March 2024 – Present
+Role: Sr. Software Engineer  
+Responsibilities:
+•	Designed and deployed a highly available EKS cluster using Terraform, enabling fraud detection services to scale with controlled security boundaries and custom network policies.
+•	Created GitOps-style CI/CD pipelines using GitHub Actions, automating the build, test, and promotion lifecycle of containerized workloads across EKS namespaces.
+•	Developed Helm charts to templatize deployment of microservices across EKS, reducing deployment errors and promoting consistent configurations across lower and production environments.
+•	Integrated Fluent Bit as a Kubernetes DaemonSet for streaming logs from EKS nodes to CloudWatch Logs, improving observability and forensic analysis for fraud activity.
+•	Automated IAM role creation and policy attachment using Terraform, enforcing least-privilege access across fraud microservices and internal teams.
+•	Implemented Ansible playbooks to configure baseline OS settings on Amazon Linux 2 EC2 bastion hosts and container nodes, supporting secure configuration audits.
+•	Configured CloudTrail and AWS Config Rules to monitor, alert, and enforce compliance for changes in EKS clusters and critical fraud service infrastructure.
+•	Established runtime threat detection in EKS using GuardDuty, integrating with AWS Security Hub for streamlined incident correlation and escalation.
+•	Parameterized infrastructure provisioning using reusable Terraform modules for components like VPC, EKS, IAM, RDS, and S3, promoting standardized environments across fraud-related workloads.
+•	Enabled blue-green and canary deployments using GitHub Actions with Helm upgrade strategies for EKS pods, achieving high availability and rollback support during release cycles.
+•	Collected custom application metrics and Kubernetes node stats using Prometheus and visualized them in Grafana dashboards to detect anomalies during fraud detection workloads.
+•	Collaborated with internal GRC and compliance teams to align all EKS-based infrastructure, IAM policies, and logging pipelines with PCI-DSS, SOX, and internal audit frameworks.
+Tools and Technology: AWS (EKS, EC2, IAM, S3, CloudWatch, CloudTrail, Config, GuardDuty, RDS, SSM), Terraform, GitHub Actions, Docker, Kubernetes (EKS), Helm, Fluent Bit, Ansible, Prometheus, Grafana, Amazon Linux 2, Ubuntu
+
+Client: Fiserv - Charlotte, NC	 November 2022 – February 2024
+Role: Sr. Software Engineer  
+Responsibilities:
+•	Led the migration of legacy banking applications from on-premises VMs to Azure Kubernetes Service (AKS), leveraging Docker containers and Helm charts to modernize deployments and achieve operational consistency.
+•	Developed and maintained reusable ARM Templates and Terraform modules to provision AKS clusters, network policies, and private DNS zones across multiple banking environments.
+•	Built secure, parameterized Azure DevOps YAML pipelines to automate CI/CD workflows including Docker image builds, security scans, artifact promotion, and staged AKS deployments.
+•	Integrated Azure Key Vault with Azure DevOps pipelines to securely inject secrets and certificates into Kubernetes deployments, eliminating hard-coded credentials across release pipelines.
+•	Designed and configured AKS Horizontal Pod Autoscaler and custom node pools to optimize resource usage and dynamically scale container workloads for high-traffic banking APIs.
+•	Implemented Chef cookbooks to automate OS hardening, vulnerability patching, and compliance enforcement across Azure VM scale sets used by legacy workloads in transition.
+•	Set up Azure Monitor and Application Insights to collect Kubernetes logs, performance metrics, and distributed traces, enabling proactive alerting and root cause analysis for critical services.
+•	Hardened Kubernetes environments by enabling Microsoft Defender for Cloud, auditing RBAC policies, enforcing container image policies, and automating drift detection for critical controls.
+•	Used Pod Disruption Budgets (PDBs) and Pod Affinity rules in AKS to ensure high availability of microservices during maintenance events and node drain operations.
+•	Created service-level dashboards in Grafana by exposing AKS metrics via Prometheus exporters, supporting 24/7 observability and SRE-led operations reviews.
+•	Configured Azure Application Gateway with WAF policies for secure ingress traffic routing to AKS services, supporting encrypted traffic, threat detection, and blue-green deployments.
+•	Enforced quality gates by integrating Sonar Cloud scans and security rules into Azure Repos branch policies, ensuring static code analysis and vulnerability detection during every pull request.
+Tools and Technology: Azure (AKS, ACR, Azure DevOps, Azure VMSS, Azure Monitor, App Insights, Key Vault, Application Gateway, Front Door, Blob Storage, Defender for Cloud, ARM Templates), Docker, Helm, Prometheus, Grafana, Sonar Cloud, Terraform, Chef, Git, Linux (Ubuntu & RHEL)
+
+Client: Agility – Hyderabad, India 	April 2020 – August 2022
+Role: Sr. Software Engineer  
+Responsibilities:
+•	Designed containerized microservices for Agility's logistics platform using Docker and deployed them to Amazon ECS Fargate clusters for fully managed, scalable orchestration.
+•	Automated end-to-end infrastructure deployment using AWS CloudFormation templates to provision ECS clusters, IAM roles, RDS, ALBs, and VPC resources across all environments.
+•	Built CI/CD pipelines using Jenkins integrated with AWS CodePipeline, enabling automated build, test, and deploy workflows triggered by GitHub PRs for ECS microservices.
+•	Implemented centralized secret and configuration management using AWS SSM Parameter Store and AWS KMS for encrypted runtime variable injection in ECS workloads.
+•	Configured SonarQube quality gates in CI/CD pipelines to enforce code quality standards and fail builds on security vulnerabilities or low maintainability scores.
+•	Integrated ELK Stack (Elasticsearch, Logstash, Kibana) with ECS containers to enable real-time log analysis, search, and visualization for critical logistics microservices.
+•	Maintained CloudWatch Logs integration alongside ELK for audit and compliance purposes, tagging logs based on service, environment, and container instance metadata.
+•	Implemented detailed application and container-level monitoring using custom CloudWatch dashboards to track memory, CPU, and disk utilization across ECS tasks.
+•	Deployed Helm-based services to internal EKS (Kubernetes) clusters during pre-prod evaluation, validating auto-scaling and container orchestration flexibility beyond ECS.
+•	Evaluated Kubernetes-native rollout strategies like blue/green and canary deployments within EKS using Jenkins-driven CodePipeline, enabling phased rollouts with zero downtime.
+•	Collaborated with
+platform engineers to standardize infrastructure provisioning using reusable CloudFormation stacks and CI/CD templates across staging and production.
+•	Conducted periodic security audits leveraging AWS Inspector, AWS Config, AWS KMS, and GuardDuty to harden ECS workloads and detect misconfigurations or threats in real time.
+Tools and Technology: AWS (ECS Fargate, EKS, ECR, EC2, VPC, IAM, RDS, ALB, S3, CloudWatch, CloudTrail, AWS Config, GuardDuty, Inspector, KMS, SSM), Docker, Jenkins, AWS CodePipeline, CloudFormation, SonarQube, ELK Stack (Elasticsearch, Logstash, Kibana)
+
+Client: Tvisha Technologies – Hyderabad, India	February 2018 – March 2020
+Role: Jr. Software Engineer  
+Responsibilities:
+
+•	Developed and deployed e-commerce microservices on AWS using Docker containers and orchestrated them in local Kubernetes (k3s) environments for dev and staging workflows.
+•	Defined and provisioned AWS resources using AWS CDK, including VPCs, EC2, IAM, and ECS services, enabling version-controlled infrastructure delivery through code.
+•	Built modular GitLab CI/CD pipelines with YAML templates to automate Docker builds, vulnerability scans using Snyk, and image pushes to ECR with tagging strategies.
+•	Containerized Java-based checkout, cart, and catalog services using Docker and deployed them to local Kubernetes (k3s) clusters with custom Helm chart simulations.
+•	Integrated Checkov for IaC policy scanning and compliance checks on AWS CDK stacks in CI pipelines, enforcing secure deployment patterns across environments.
+•	Implemented centralized monitoring using Prometheus and custom exporters in k3s, and visualized cluster and application metrics via Grafana dashboards.
+•	Automated configuration management tasks and app deployments with Puppet, managing environment variables, secrets, and Java runtime setups on EC2-based nodes.
+•	Simulated Kubernetes cluster autoscaling and pod failover handling using kind, testing container resiliency patterns locally before deploying to production ECS.
+•	Enforced least-privilege security using IAM roles, inline policies, and SGs for services launched through AWS CDK, ensuring each microservice was properly isolated.
+•	Created reusable CDK constructs for core AWS services like ECS Fargate, RDS, and S3, boosting infrastructure reuse across modules and reducing duplication.
+•	Integrated unit and integration test execution into GitLab CI/CD pipelines, ensuring code quality gates were enforced before containerization and deployment stages.
+•	Enabled real-time alerting in Prometheus for memory spikes, HTTP errors, and pod crashes in k3s, and visualized long-term trends using Grafana panels.
+Tools and Technology: AWS (EC2, ECR, IAM, S3, ECS Fargate), AWS CDK, Docker, Kubernetes (k3s/kind), GitLab CI/CD, Prometheus, Grafana, Checkov, Snyk, Puppet, Amazon Linux 2, Ubuntu
+
+Client: Value Momentum – Hyderabad, India	December 2015 – January 2018
+Role: Jr. Software Engineer  
+Responsibilities:
+•	Automated GCP infrastructure provisioning for insurance workloads using Deployment Manager, creating templates for GKE, Cloud SQL, and Compute Engine with reusable YAML schemas.
+•	Designed CI/CD pipelines with Cloud Build and integrated GitHub triggers to automate code builds, containerization, and image pushes to Artifact Registry.
+•	Containerized over 20 Java-based microservices using Docker and deployed them on GKE, implementing Helm charts for environment-specific configuration management.
+•	Deployed highly available Kubernetes clusters on GKE with multi-zone node pools, autoscaling, and fine-grained IAM bindings for role-based access control.
+•	Built custom Cloud Build workflows to orchestrate Helm chart packaging, Docker image builds, and rollout deployments for insurance microservices.
+•	Configured horizontal pod autoscalers (HPA) and resource quotas in GKE to optimize resource usage and maintain service responsiveness under heavy loads.
+•	Implemented centralized monitoring and logging using GCP Operations Suite (formerly Stackdriver), creating custom dashboards and log-based alerts for critical insurance services.
+•	Developed Ansible playbooks to automate post-deployment configuration tasks for Compute Engine instances and service integration with Cloud SQL.
+•	Enforced security compliance by managing IAM policies, encrypting secrets and volumes with Cloud KMS, and auditing access via Cloud Audit Logs.
+•	Enabled blue-green deployments for critical services using Cloud Build + GKE + Helm, reducing production downtime and ensuring rollout stability.
+•	Integrated Cloud Build with Security Command Center to run static and container vulnerability scans as part of the CI/CD lifecycle.
+•	Authored detailed operational runbooks and architectural diagrams, promoting best practices in Kubernetes-based application lifecycle management within the DevOps team.
+Tools and Technology: GCP (GKE, Cloud Build, Cloud Deploy, Deployment Manager, Cloud SQL, Cloud Storage, Artifact Registry, Cloud Logging, Cloud Monitoring, IAM, Cloud KMS, Security Command Center), Docker, Helm, Ansible, GitHub, Ubuntu

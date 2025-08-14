@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-body), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline), sans-serif;
+}
+
+
+@layer base {
+  :root {
+    --background: 224 71% 4%;
+    --foreground: 210 40% 98%;
+    --card: 224 71% 10%;
+    --card-foreground: 210 40% 98%;
+    --popover: 224 71% 4%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 180 95% 60%; /* Cyan */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 260 85% 65%; /* Indigo */
+    --secondary-foreground: 210 40% 98%;
+    --muted: 224 71% 10%;
+    --muted-foreground: 210 40% 90%;
+    --accent: 330 90% 65%; /* Pink */
+    --accent-foreground: 24 9.8% 10%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 180 95% 60%;
+    --radius: 0.8rem;
+    --chart-1: 120 73% 47%; /* Green */
+    --chart-2: 30 95% 59%; /* Orange */
+    --chart-3: 270 89% 65%; /* Indigo */
+    --chart-4: 330 89% 65%; /* Violet */
+    --chart-5: 195 91% 55%; /* Sky Blue */
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 210 40% 98%;
+    --card: 224 71% 10%;
+    --card-foreground: 210 40% 98%;
+    --popover: 224 71% 4%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 180 95% 60%; /* Cyan */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 260 85% 65%; /* Indigo */
+    --secondary-foreground: 210 40% 98%;
+    --muted: 224 71% 10%;
+    --muted-foreground: 210 40% 90%;
+    --accent: 330 90% 65%; /* Pink */
+    --accent-foreground: 24 9.8% 10%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 180 95% 60%;
+    --chart-1: 120 73% 47%; /* Green */
+    --chart-2: 30 95% 59%; /* Orange */
+    --chart-3: 270 89% 65%; /* Indigo */
+    --chart-4: 330 89% 65%; /* Violet */
+    --chart-5: 195 91% 55%; /* Sky Blue */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background-color: hsl(var(--background));
+    background-image:
+      radial-gradient(ellipse at bottom, hsl(330, 50%, 20%), transparent),
+      radial-gradient(ellipse at top, hsl(230, 70%, 15%), transparent),
+      repeating-radial-gradient(circle at center, hsla(0,0%,100%,0.08) 0px, hsla(0,0%,100%,0.08) 1px, transparent 1px, transparent 100%);
+    background-size: 100% 100%, 100% 100%, 20px 20px;
+    cursor: none;
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(to right, hsl(var(--primary)), hsl(var(--secondary)), hsl(var(--accent)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#custom-cursor {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  box-shadow: 0 0 20px 5px #fff;
+  animation: rainbow-glow 5s linear infinite;
+  transition: transform 0.1s ease-out;
+}
+
+@keyframes rainbow-glow {
+  0% {
+    filter: hue-rotate(0deg);
+    transform: translate(-50%, -50%) scale(1);
+    box-shadow:
+      0 0 10px rgba(255, 0, 0, 0.8),
+      0 0 20px rgba(255, 165, 0, 0.7),
+      0 0 30px rgba(255, 255, 0, 0.6);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+    transform: translate(-50%, -50%) scale(1.1);
+     box-shadow:
+      0 0 10px rgba(255, 0, 0, 0.8),
+      0 0 20px rgba(255, 165, 0, 0.7),
+      0 0 30px rgba(255, 255, 0, 0.6);
+  }
+}
+
+
+a, button, [role="button"] {
+  cursor: none;
+}
